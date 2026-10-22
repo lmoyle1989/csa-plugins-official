@@ -1,0 +1,1 @@
+/caiq-scorer:caiq-scorer Score the CAIQ in this directory: CAIQ-v4.1.0-sample.xlsx. I confirm the framework version to use is CCM 4.1.0. This is a non-interactive run: you cannot ask me questions, so proceed without asking. Save all output files in the current directory.

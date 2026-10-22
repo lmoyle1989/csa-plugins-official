@@ -1,5 +1,7 @@
 # caiq-scorer plugin: test results
 
+> **1.1.1 re-test:** see [`1.1.1/README.md`](1.1.1/README.md). This page covers the original 1.1.0 tests.
+
 Test evidence for PR #22 (`add-caiq-scorer`). This branch is for review only, and none of it is part of the plugin release.
 
 **Short answer: it works.** The plugin installed from GitHub and loaded as `caiq-scorer:caiq-scorer`. It ran end to end on three real questionnaires (CAIQ v4.0.2, CAIQ v4.1.0 and AI-CAIQ v1.0.2) and produced a valid scored workbook and PDF report for each. With no hints, it stopped and asked about the CAIQ 4.0.2 version mismatch, which is the known issue noted in the PR.

@@ -1,0 +1,5 @@
+$ claude plugin uninstall caiq-scorer@csa-plugins-official
+✔ Successfully uninstalled plugin: caiq-scorer (scope: user)
+
+$ claude plugin marketplace remove csa-plugins-official
+✔ Successfully removed marketplace: csa-plugins-official
