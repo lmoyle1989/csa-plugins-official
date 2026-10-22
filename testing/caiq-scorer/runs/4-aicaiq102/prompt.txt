@@ -1,0 +1,1 @@
+/caiq-scorer:caiq-scorer Score the AI-CAIQ in this directory: AI-CAIQ-v1.0.2-sample.xlsx. I confirm the framework version to use is AICM 1.0.2. This is a non-interactive run: you cannot ask me questions, so proceed without asking. Save all output files in the current directory.

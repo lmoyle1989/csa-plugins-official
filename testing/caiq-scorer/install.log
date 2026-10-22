@@ -1,0 +1,35 @@
+$ claude --version
+2.1.308 (Claude Code)
+
+$ claude plugin marketplace add lmoyle1989/csa-plugins-official#add-caiq-scorer
+Adding marketplace…SSH not configured, cloning via HTTPS: https://github.com/lmoyle1989/csa-plugins-official.git
+Refreshing marketplace cache (timeout: 120s)…
+Cloning repository (timeout: 120s): https://github.com/lmoyle1989/csa-plugins-official.git (ref: add-caiq-scorer)
+Clone complete, validating marketplace…
+Cleaning up old marketplace cache…
+✔ Successfully added marketplace: csa-plugins-official (declared in user settings)
+
+$ claude plugin install caiq-scorer@csa-plugins-official
+Installing plugin "caiq-scorer@csa-plugins-official"...✔ Successfully installed plugin: caiq-scorer@csa-plugins-official (scope: user)
+
+$ claude plugin details caiq-scorer
+caiq-scorer 1.1.0
+  Description: Score a completed CAIQ (CCM) or AI-CAIQ (AICM) question by question on a 0–4 scale using CSA's Valid-AI-ted methodology, producing a scored workbook and a domain-rollup PDF report. Informational and AI-assisted — not a CSA certification, audit, or STAR listing.
+  Source: caiq-scorer@csa-plugins-official
+
+Component inventory
+  Skills (1)  caiq-scorer
+  Agents (0)
+  Hooks (0)
+  MCP servers (0)
+  LSP servers (0)
+
+Projected token cost
+  Always-on:   ~203 tok   added to every session
+
+Per-component (rounded)
+  component    always-on  on-invoke
+  caiq-scorer       ~200      ~5.3k
+
+  On-invoke cost is paid each time a skill or agent fires.
+  Token counts are estimates and may differ from actual usage.
